@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.heading{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: coral;
+  text-decoration: underline;
+}
+
+.card {
+  border-radius: 5px;
+  border:1px solid #f0f0f0;
+  padding: 6rem;
+  background-color: #ffff;
+  box-shadow: 5px 5px 31px 6px #13121c3b;
+  width: 50%;
+
+}
+
+.list_item{
+  margin: 0px 0px 10px;
+  display: flex;
+  gap:10px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.delete_button{
+  background: red;
+  color: #fff;
+  padding: 4px 7px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.add_button{
+  margin-bottom: 10px;
+  background: #0071ff;
+  color: #fff;
+  padding: 7px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width:20%;
+}
+
+.input_tag{
+  margin-bottom: 10px;
+  padding: 7px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width:80%;
+}
