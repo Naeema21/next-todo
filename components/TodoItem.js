@@ -5,10 +5,10 @@ function TodoItem({ todo, onToggle, onDelete }) {
     <div className={styles.list_item}>
       <input
         type="checkbox"
-        checked={todo.completed}
-        onChange={() => onToggle(todo.id)}
+        checked={todo?.completed}
+        onChange={() => onToggle(todo)}
       />
-      <span style={{overflowWrap:'anywhere'}}>{todo.text}</span>
+      <span style={{overflowWrap:'anywhere'}}>{todo?.title}</span>
       <button onClick={() => onDelete(todo.id)} className={styles.delete_button}>Delete</button>
     </div>
   )
